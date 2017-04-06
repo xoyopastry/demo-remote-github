@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+.header{
+    width: 1200px;
+    height: 150px;
+    /*background: #8d929a;*/
+    margin: 0 auto;
+    font-size: 60px;
+    text-align: center;
+    color: #127089;
+}
+.header .title{
+    font-family: 华文行楷;
+    font-size: 30px;
+}
+.nav{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    background: #aa6495;
+}
+.nav ul li{
+    float: left;
+    margin: 0 100px;
+    width: 200px;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+.nav ul li a{
+    font-size: 26px;
+    color: #000;
+    font-family: 华文彩云;
+}
+.nav ul li a:hover ,.nav ul li a.active{
+    color: #fff;
+}
+.footer{
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+    background: #ccc;
+    padding-left: 100px;
+}
+.footer dl dt{
+    font-size: 26px;
+    line-height: 60px;
+    color: #555;
+}
+.footer dl dd{
+    font-size: 20px;
+    float: left;
+    line-height: 20px;
+    padding: 0 50px;
+    border-right: 1px solid #555;
+}
+.footer dl dd a{
+    color: #999;
+}
+.footer dl dd a:hover{
+    color: #666;
+}
